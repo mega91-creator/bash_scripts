@@ -158,5 +158,7 @@ echo "Download completed successfully and saved to: $REAL_PATH"
 # yt-dlp --list-formats "https://youtu.be/cPpMQA3eUwY"
 
 # Then use a specific format code with -f
-# ./yt-downloader.sh -f 22 "https://youtu.be/cPpMQA3eUwY" "$HOME/Downloads"
-# ./yt-downloader.sh -q 1080p "https://youtu.be/cPpMQA3eUwY " "/path/to/download"
+# ./yt-downloader.sh -f "270+bestaudio" "https://www.youtube.com/watch?v=KfrGoTqUqzg" "/path/to/download"
+# ./yt-downloader.sh -q 1080p --verbose "https://www.youtube.com/watch?v=KfrGoTqUqzg" "/path/to/download"
+# ./yt-downloader.sh -q best "https://www.youtube.com/watch?v=35JkVFaXRqc" "$HOME/Downloads"
+# ./yt-downloader.sh -f "bestvideo+bestaudio" "https://www.youtube.com/watch?v=l8n2z5g4jnw"  "$HOME/Downloads"
