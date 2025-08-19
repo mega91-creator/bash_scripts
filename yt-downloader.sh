@@ -160,5 +160,7 @@ echo "Download completed successfully and saved to: $REAL_PATH"
 # Then use a specific format code with -f
 # ./yt-downloader.sh -f "270+bestaudio" "https://www.youtube.com/watch?v=KfrGoTqUqzg" "/path/to/download"
 # ./yt-downloader.sh -q 1080p --verbose "https://www.youtube.com/watch?v=KfrGoTqUqzg" "/path/to/download"
-# ./yt-downloader.sh -q best "https://www.youtube.com/watch?v=35JkVFaXRqc" "$HOME/Downloads"
 # ./yt-downloader.sh -f "bestvideo+bestaudio" "https://www.youtube.com/watch?v=l8n2z5g4jnw"  "$HOME/Downloads"
+
+# yt-dlp "https://www.jsjs.com/view_video.php?viewkey=ph61b279b965043" -o output.mp4
+# ./yt-downloader.sh -f "hls-2597" "https://www.jsjs.com/view_video.php?viewkey=ph61b279b965043" "$HOME/Downloads"
